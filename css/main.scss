@@ -17,6 +17,24 @@ button {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+.title {
+    font-size: 1.6rem;
+    font-weight: 900;
+  }
+  .para{
+    font-size: 1.154rem;
+font-weight: 600;
+line-height: 1.5;
+// .game-card {
+//     flex: 0 0 23%;
+//     max-width: 23%;
+//     overflow: hidden;
+//     padding-bottom: 1rem;
+//     margin-top: 2rem;
+//     transition: all 0.5s ease;
+//     animation: updown 1s ease;
+//   }
+}
 header{
 
     background: url(../images/slide-2.jpg) no-repeat;
@@ -125,6 +143,7 @@ header{
 
 
     .part-1{
+        padding-top:2.5rem;
         h1{
             color: $white-color
         }
@@ -197,6 +216,10 @@ header{
 }
 
 .part-2{
+   
+margin-top: 2rem;
+margin-bottom: 2rem;
+
     @include display-flex;
     button{
         @include button-1($yellow-color,rgba(0, 0, 0, 0));
@@ -211,12 +234,28 @@ header{
     }
 }
 }
-.part-3{
+.part-3 ,.part-4{
+    padding-top: 2rem;
     .card{
         img{
             padding: .5rem;
             border: none;
+            }
+            &:hover{
+                
+                transform: scale(1.1);
+                opacity: 0.8;
+                h1{
+                    color: $yellow-color;
+                }
+                
+                
+              }
+              border: none;
+
+            }
         }
+
+
     }
-}
-}
+

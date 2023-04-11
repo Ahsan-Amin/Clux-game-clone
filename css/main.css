@@ -27,6 +27,17 @@ button {
   margin-bottom: 0px;
 }
 
+.title {
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+.para {
+  font-size: 1.154rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
 header {
   background: url(../images/slide-2.jpg) no-repeat;
   background-position: center;
@@ -122,6 +133,9 @@ header .main-btn button:hover {
 .section-1 {
   background-color: #ffffff;
 }
+.section-1 .part-1 {
+  padding-top: 2.5rem;
+}
 .section-1 .part-1 h1 {
   color: #ffffff;
 }
@@ -188,6 +202,8 @@ header .main-btn button:hover {
   color: #ffffff;
 }
 .section-1 .part-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: row;
 }
@@ -204,7 +220,20 @@ header .main-btn button:hover {
   color: #ffffff;
   background-color: #ffc107;
 }
-.section-1 .part-3 .card img {
+.section-1 .part-3, .section-1 .part-4 {
+  padding-top: 2rem;
+}
+.section-1 .part-3 .card, .section-1 .part-4 .card {
+  border: none;
+}
+.section-1 .part-3 .card img, .section-1 .part-4 .card img {
   padding: 0.5rem;
   border: none;
+}
+.section-1 .part-3 .card:hover, .section-1 .part-4 .card:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+.section-1 .part-3 .card:hover h1, .section-1 .part-4 .card:hover h1 {
+  color: #ffc107;
 }/*# sourceMappingURL=main.css.map */
