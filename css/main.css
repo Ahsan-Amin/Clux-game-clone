@@ -256,11 +256,17 @@ header .main-btn button:hover {
   margin-top: 5rem;
 }
 
+.dis {
+  display: flex;
+}
+
 .search-bar a,
 .search-bar h1,
 .search-bar input {
   position: relative;
   z-index: 5;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .search-bar h1 {
@@ -277,6 +283,8 @@ header .main-btn button:hover {
   width: 10rem;
   height: 3rem;
   padding: 0 0.6rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .search-bar input::-moz-placeholder {
