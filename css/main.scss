@@ -25,16 +25,14 @@ button {
     font-size: 1.154rem;
 font-weight: 600;
 line-height: 1.5;
-// .game-card {
-//     flex: 0 0 23%;
-//     max-width: 23%;
-//     overflow: hidden;
-//     padding-bottom: 1rem;
-//     margin-top: 2rem;
-//     transition: all 0.5s ease;
-//     animation: updown 1s ease;
-//   }
 }
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
 header{
 
     background: url(../images/slide-2.jpg) no-repeat;
@@ -280,7 +278,7 @@ margin-bottom: 2rem;
   
   .search-bar h1 {
     font-size: 2rem;
-    color: var(--white-color);
+    color: $white-color;
   }
   
   .search-bar input {
@@ -288,14 +286,14 @@ margin-bottom: 2rem;
     font-weight: 600;
     color: white;
     background-color: transparent;
-    border: 1px solid var(--white-color);
+    border: 1px solid $white-color;
     width: 10rem;
     height: 3rem;
     padding: 0 0.6rem;
   }
   
   .search-bar input::placeholder {
-    color: var(--white-color);
+    color:$white-color;
     text-transform: uppercase;
     font-size: 0.7rem;
   }
@@ -307,7 +305,7 @@ margin-bottom: 2rem;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: var(--yellow-color);
+    background-color: $yellow-color;
     opacity: 0.7;
     z-index: 2;
     transition: all 0.7s ease-in-out;
@@ -316,8 +314,8 @@ margin-bottom: 2rem;
   .search-bar .btn-5 {
     font-size: 1rem;
     font-weight: 600;
-    color: var(--yellow-color);
-    background-color: var(--white-color);
+    color: $yellow-color;
+    background-color: $white-color;
     padding: 0.8rem 3rem;
     display: flex;
     align-items: center;
@@ -325,5 +323,5 @@ margin-bottom: 2rem;
   }
   
   .search-bar .btn-5:hover {
-    background-color: var(--light-black-color);
+    background-color: $light-black-color;
   }

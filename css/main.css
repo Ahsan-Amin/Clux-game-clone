@@ -38,6 +38,12 @@ button {
   line-height: 1.5;
 }
 
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 header {
   background: url(../images/slide-2.jpg) no-repeat;
   background-position: center;
@@ -259,7 +265,7 @@ header .main-btn button:hover {
 
 .search-bar h1 {
   font-size: 2rem;
-  color: var(--white-color);
+  color: #ffffff;
 }
 
 .search-bar input {
@@ -267,20 +273,20 @@ header .main-btn button:hover {
   font-weight: 600;
   color: white;
   background-color: transparent;
-  border: 1px solid var(--white-color);
+  border: 1px solid #ffffff;
   width: 10rem;
   height: 3rem;
   padding: 0 0.6rem;
 }
 
 .search-bar input::-moz-placeholder {
-  color: var(--white-color);
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 0.7rem;
 }
 
 .search-bar input::placeholder {
-  color: var(--white-color);
+  color: #ffffff;
   text-transform: uppercase;
   font-size: 0.7rem;
 }
@@ -292,7 +298,7 @@ header .main-btn button:hover {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: var(--yellow-color);
+  background-color: #ffc107;
   opacity: 0.7;
   z-index: 2;
   transition: all 0.7s ease-in-out;
@@ -301,8 +307,8 @@ header .main-btn button:hover {
 .search-bar .btn-5 {
   font-size: 1rem;
   font-weight: 600;
-  color: var(--yellow-color);
-  background-color: var(--white-color);
+  color: #ffc107;
+  background-color: #ffffff;
   padding: 0.8rem 3rem;
   display: flex;
   align-items: center;
@@ -310,5 +316,5 @@ header .main-btn button:hover {
 }
 
 .search-bar .btn-5:hover {
-  background-color: var(--light-black-color);
+  background-color: #111111;
 }/*# sourceMappingURL=main.css.map */
