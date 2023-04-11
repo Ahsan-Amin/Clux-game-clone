@@ -204,27 +204,7 @@ header .main-btn button:hover {
   color: #ffffff;
   background-color: #ffc107;
 }
-.section-1 .part-3 .card-1 {
-  position: relative;
-  z-index: 1;
-  margin: 2rem;
-  padding: 3rem;
-}
-.section-1 .part-3 .card-2 {
-  position: relative;
-  z-index: 1;
-  margin: 2rem;
-  padding: 3rem;
-}
-.section-1 .part-3 .card-3 {
-  position: relative;
-  z-index: 1;
-  margin: 2rem;
-  padding: 3rem;
-}
-.section-1 .part-3 .card-4 {
-  position: relative;
-  z-index: 1;
-  margin: 2rem;
-  padding: 3rem;
+.section-1 .part-3 .card img {
+  padding: 0.5rem;
+  border: none;
 }/*# sourceMappingURL=main.css.map */

@@ -212,29 +212,11 @@ header{
 }
 }
 .part-3{
-    .card-1{
-        position: relative;
-        z-index: 1;
-        margin: 2rem;
-        padding: 3rem;
+    .card{
+        img{
+            padding: .5rem;
+            border: none;
         }
-        .card-2{
-            position: relative;
-            z-index: 1;
-            margin: 2rem;
-            padding: 3rem;
-            }
-            .card-3{
-                position: relative;
-                z-index: 1;
-                margin: 2rem;
-                padding: 3rem;
-                }
-                .card-4{
-                    position: relative;
-                    z-index: 1;
-                    margin: 2rem;
-                    padding: 3rem;
-                    }
+    }
 }
 }
