@@ -1,0 +1,230 @@
+.center {
+  justify-content: center;
+}
+
+a {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: none;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+header {
+  background: url(../images/slide-2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding-top: 4rem;
+  padding-bottom: 15rem;
+}
+header nav .logo h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+header nav .logo h1 span {
+  transition: all 0.5s ease;
+  color: #ffc107;
+}
+header .nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header .nav-container a {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: none;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+header .nav-container a:hover {
+  color: #ffc107;
+}
+header .nav-container .upper-nav ul {
+  display: flex;
+  flex-direction: row;
+}
+header .nav-container .upper-nav button {
+  color: #ffffff;
+  background-color: #ffc107;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  margin-left: 0.3rem;
+  border: none;
+}
+header .nav-container .lower-nav ul {
+  display: flex;
+  flex-direction: row;
+}
+header .Main-section {
+  color: #ffffff;
+  text-align: center;
+}
+header .Main-section h1 {
+  padding-top: 10rem;
+  font-size: 5.5rem;
+  letter-spacing: 0px;
+  font-weight: bolder;
+}
+header p {
+  font-size: 1.154rem;
+  font-weight: 600;
+  line-height: 1.5;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+header .section {
+  padding: 0.1rem 6rem;
+}
+header .main-btn {
+  display: flex;
+  flex-direction: row;
+}
+header .main-btn button {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem 1.3rem;
+  border-bottom: 4px #ffffff solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 0px 1rem;
+}
+header .main-btn button:hover {
+  border-bottom: 4px #ffc107 solid;
+  color: #ffc107;
+}
+
+.section-1 {
+  background-color: #ffffff;
+}
+.section-1 .part-1 h1 {
+  color: #ffffff;
+}
+.section-1 .part-1 h6 {
+  color: #ffc107;
+}
+.section-1 .part-1 p {
+  font-size: 1.154rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffffff;
+}
+.section-1 .part-1 .card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.section-1 .part-1 .card-1 {
+  background-image: url(../images/box-1-bg.jpg);
+  margin: 2rem;
+  padding: 3rem;
+  position: relative;
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+}
+.section-1 .part-1 .card-2 {
+  background-image: url(../images/box-2-bg.jpg);
+  position: relative;
+  z-index: 1;
+  margin: 2rem;
+  padding: 3rem;
+  background-position: center;
+  background-size: cover;
+}
+.section-1 .part-1 .card-3 {
+  background-image: url(../images/box-3-bg.jpg);
+  position: relative;
+  z-index: 1;
+  margin: 2rem;
+  padding: 3rem;
+  background-position: center;
+  background-size: cover;
+}
+.section-1 .part-1 button {
+  color: #ffc107;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem 1.3rem;
+  border-bottom: 4px #ffc107 solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 0px 1rem;
+}
+.section-1 .part-1 button:hover {
+  border-bottom: 4px #ffffff solid;
+  color: #ffffff;
+}
+.section-1 .part-2 {
+  display: flex;
+  flex-direction: row;
+}
+.section-1 .part-2 button {
+  color: #ffc107;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.8rem 1.3rem;
+  border: 2px #ffc107 solid;
+  margin: 1rem 1rem;
+}
+.section-1 .part-2 button:hover {
+  color: #ffffff;
+  background-color: #ffc107;
+}
+.section-1 .part-3 .card-1 {
+  position: relative;
+  z-index: 1;
+  margin: 2rem;
+  padding: 3rem;
+}
+.section-1 .part-3 .card-2 {
+  position: relative;
+  z-index: 1;
+  margin: 2rem;
+  padding: 3rem;
+}
+.section-1 .part-3 .card-3 {
+  position: relative;
+  z-index: 1;
+  margin: 2rem;
+  padding: 3rem;
+}
+.section-1 .part-3 .card-4 {
+  position: relative;
+  z-index: 1;
+  margin: 2rem;
+  padding: 3rem;
+}/*# sourceMappingURL=main.css.map */
