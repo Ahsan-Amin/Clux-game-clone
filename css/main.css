@@ -236,4 +236,79 @@ header .main-btn button:hover {
 }
 .section-1 .part-3 .card:hover h1, .section-1 .part-4 .card:hover h1 {
   color: #ffc107;
+}
+
+/* search-bar */
+.search-bar {
+  width: 100%;
+  background: url(../images/search-bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding: 6rem 0;
+  margin-top: 5rem;
+}
+
+.search-bar a,
+.search-bar h1,
+.search-bar input {
+  position: relative;
+  z-index: 5;
+}
+
+.search-bar h1 {
+  font-size: 2rem;
+  color: var(--white-color);
+}
+
+.search-bar input {
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: transparent;
+  border: 1px solid var(--white-color);
+  width: 10rem;
+  height: 3rem;
+  padding: 0 0.6rem;
+}
+
+.search-bar input::-moz-placeholder {
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.search-bar input::placeholder {
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.search-bar::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--yellow-color);
+  opacity: 0.7;
+  z-index: 2;
+  transition: all 0.7s ease-in-out;
+}
+
+.search-bar .btn-5 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--yellow-color);
+  background-color: var(--white-color);
+  padding: 0.8rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar .btn-5:hover {
+  background-color: var(--light-black-color);
 }/*# sourceMappingURL=main.css.map */
