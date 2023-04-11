@@ -332,3 +332,15 @@ margin-bottom: 2rem;
   .search-bar .btn-5:hover {
     background-color: $light-black-color;
   }
+// special-section
+.special-section{
+    background-image: url(../images/special-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    padding: 2rem 0;
+
+    img{
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+}

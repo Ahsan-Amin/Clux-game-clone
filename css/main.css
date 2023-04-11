@@ -325,4 +325,15 @@ header .main-btn button:hover {
 
 .search-bar .btn-5:hover {
   background-color: #111111;
+}
+
+.special-section {
+  background-image: url(../images/special-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  padding: 2rem 0;
+}
+.special-section img {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }/*# sourceMappingURL=main.css.map */
