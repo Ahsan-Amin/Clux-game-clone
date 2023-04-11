@@ -334,6 +334,7 @@ header .main-btn button:hover {
   z-index: 1;
   padding: 2rem 0;
 }
-.special-section img {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+.special-section .img-container {
+  flex: 0 0 50%;
+  max-width: 50%;
 }/*# sourceMappingURL=main.css.map */
