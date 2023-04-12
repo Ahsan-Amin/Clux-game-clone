@@ -97,6 +97,7 @@ header {
 			}
 		}
 	}
+    
 	.Main-section {
 		h1 {
 			padding-top: 10rem;
@@ -118,19 +119,8 @@ header {
 	.main-btn {
 		@include display-flex;
 		button {
-			@include button-1($white-color, rgba(0, 0, 0, 0));
+			@include button-3($white-color, rgba(0, 0, 0, 0),$yellow-color);
 			font-size: 1.2rem;
-			font-weight: 600;
-			padding: 1rem 1.3rem;
-			border-bottom: 4px $white-color solid;
-			border-top: none;
-			border-left: none;
-			border-right: none;
-			margin: 0px 1rem;
-			&:hover {
-				border-bottom: 4px $yellow-color solid;
-				color: $yellow-color;
-			}
 		}
 	}
 }
@@ -186,35 +176,15 @@ header {
 			background-size: cover;
 		}
 		button {
-			@include button-1($yellow-color, rgba(0, 0, 0, 0));
+			@include button-3($yellow-color, rgba(0, 0, 0, 0), $white-color);
 			font-size: 1rem;
-			font-weight: 600;
-			padding: 1rem;
-			border-bottom: 4px $yellow-color solid;
-			border-top: none;
-			border-left: none;
-			border-right: none;
-			margin: 0px 2rem;
-			&:hover {
-				border-bottom: 4px $white-color solid;
-				color: $white-color;
-			}
 		}
 	}
-	.part-2 {
-		margin-top: 2rem;
-		margin-bottom: 2rem;
+	.btn-2 {
+		margin: 2rem  0rem;
 		@include display-flex;
 		button {
-			@include button-1($yellow-color, rgba(0, 0, 0, 0));
-			font-size: 1.2rem;
-			font-weight: 600;
-			padding: 0.8rem 1.3rem;
-			border: 2px $yellow-color solid;
-			margin: 1rem 1rem;
-			&:hover {
-				@include button-1($white-color, $yellow-color);
-			}
+			@include button-2($yellow-color, rgba(0, 0, 0, 0));
 		}
 	}
 }
@@ -299,15 +269,9 @@ header {
 	.main-btn {
 		@include display-flex;
 		button {
-			@include button-1($yellow-color, rgba(0, 0, 0, 0));
+			@include button-3($yellow-color, rgba(0, 0, 0, 0),$white-color);
 			font-size: 1.2rem;
-			font-weight: 600;
-			padding: 1rem 1.3rem;
-			border-bottom: 4px $yellow-color solid;
-			border-top: none;
-			border-left: none;
-			border-right: none;
-			margin: 0px 1rem;
+
 			&::after {
 				position: absolute;
 				content: "";
@@ -318,12 +282,6 @@ header {
 				background-color: $yellow-color;
 				z-index: -1;
 				transition: all 0.5s ease;
-			}
-			&:hover::after {
-				height: 100%;
-			}
-			&:hover {
-				color: $white-color;
 			}
 		}
 	}

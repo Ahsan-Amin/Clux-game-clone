@@ -141,14 +141,14 @@ header .main-btn {
 header .main-btn button {
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0);
-  font-size: 1.2rem;
   font-weight: 600;
-  padding: 1rem 1.3rem;
+  padding: 1rem;
   border-bottom: 4px #ffffff solid;
   border-top: none;
   border-left: none;
   border-right: none;
   margin: 0px 1rem;
+  font-size: 1.2rem;
 }
 header .main-btn button:hover {
   border-bottom: 4px #ffc107 solid;
@@ -213,26 +213,25 @@ header .main-btn button:hover {
 .section-1 .part-1 button {
   color: #ffc107;
   background-color: rgba(0, 0, 0, 0);
-  font-size: 1rem;
   font-weight: 600;
   padding: 1rem;
   border-bottom: 4px #ffc107 solid;
   border-top: none;
   border-left: none;
   border-right: none;
-  margin: 0px 2rem;
+  margin: 0px 1rem;
+  font-size: 1rem;
 }
 .section-1 .part-1 button:hover {
   border-bottom: 4px #ffffff solid;
   color: #ffffff;
 }
-.section-1 .part-2 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.section-1 .btn-2 {
+  margin: 2rem 0rem;
   display: flex;
   flex-direction: row;
 }
-.section-1 .part-2 button {
+.section-1 .btn-2 button {
   color: #ffc107;
   background-color: rgba(0, 0, 0, 0);
   font-size: 1.2rem;
@@ -241,9 +240,9 @@ header .main-btn button:hover {
   border: 2px #ffc107 solid;
   margin: 1rem 1rem;
 }
-.section-1 .part-2 button:hover {
-  color: #ffffff;
+.section-1 .btn-2 button:hover {
   background-color: #ffc107;
+  color: #ffffff;
 }
 
 /* search-bar */
@@ -345,14 +344,18 @@ header .main-btn button:hover {
 .special-section .main-btn button {
   color: #ffc107;
   background-color: rgba(0, 0, 0, 0);
-  font-size: 1.2rem;
   font-weight: 600;
-  padding: 1rem 1.3rem;
+  padding: 1rem;
   border-bottom: 4px #ffc107 solid;
   border-top: none;
   border-left: none;
   border-right: none;
   margin: 0px 1rem;
+  font-size: 1.2rem;
+}
+.special-section .main-btn button:hover {
+  border-bottom: 4px #ffffff solid;
+  color: #ffffff;
 }
 .special-section .main-btn button::after {
   position: absolute;
@@ -364,12 +367,6 @@ header .main-btn button:hover {
   background-color: #ffc107;
   z-index: -1;
   transition: all 0.5s ease;
-}
-.special-section .main-btn button:hover::after {
-  height: 100%;
-}
-.special-section .main-btn button:hover {
-  color: #ffffff;
 }
 .special-section p {
   color: #ffffff;
