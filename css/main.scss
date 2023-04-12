@@ -201,7 +201,8 @@ header {
 	margin-top: 5rem;
 }
 .dis {
-	display: flex;
+	// display: flex;
+    flex-direction: row;
 }
 .search-bar a, .search-bar h1, .search-bar input {
 	position: relative;
@@ -219,9 +220,9 @@ header {
 	color: white;
 	background-color: transparent;
 	border: 1px solid $white-color;
-	width: 10rem;
-	height: 3rem;
-	padding: 0 0.6rem;
+	// width: 10.6%;
+	// height: 3rem;
+	padding: 0.7rem .5rem;
 	margin-left: 1.5rem;
 	margin-right: 1.5rem;
 }
@@ -247,10 +248,10 @@ header {
 	font-weight: 600;
 	color: $yellow-color;
 	background-color: $white-color;
-	padding: 0.8rem 3rem;
-	display: flex;
+	padding: 0.7rem 2rem;
 	align-items: center;
 	justify-content: center;
+    margin: 1rem;
 }
 .search-bar .btn-5:hover {
 	background-color: $light-black-color;

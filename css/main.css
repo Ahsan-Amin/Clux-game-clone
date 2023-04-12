@@ -258,7 +258,7 @@ header .main-btn button:hover {
 }
 
 .dis {
-  display: flex;
+  flex-direction: row;
 }
 
 .search-bar a, .search-bar h1, .search-bar input {
@@ -279,9 +279,7 @@ header .main-btn button:hover {
   color: white;
   background-color: transparent;
   border: 1px solid #ffffff;
-  width: 10rem;
-  height: 3rem;
-  padding: 0 0.6rem;
+  padding: 0.7rem 0.5rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -316,10 +314,10 @@ header .main-btn button:hover {
   font-weight: 600;
   color: #ffc107;
   background-color: #ffffff;
-  padding: 0.8rem 3rem;
-  display: flex;
+  padding: 0.7rem 2rem;
   align-items: center;
   justify-content: center;
+  margin: 1rem;
 }
 
 .search-bar .btn-5:hover {
