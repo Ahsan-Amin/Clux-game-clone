@@ -169,6 +169,8 @@ header .main-btn button:hover {
 }
 .section-1 .part-1 h1 {
   color: #ffffff;
+  font-size: 2rem;
+  font-weight: 900;
 }
 .section-1 .part-1 h6 {
   color: #ffc107;
