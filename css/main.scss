@@ -171,16 +171,17 @@ header{
         h1{
             color: $white-color;
             font-size: 2rem;
-            font-weight: 900;
-            
+            font-weight: 900;    
         }
         h6{
             color: $yellow-color;
+            font-size: 1.1rem;
         }
                 
                 p{
                     @include para;
                     color: $white-color;
+                    font-size: 1rem;
                 }
     
                 .card::before {

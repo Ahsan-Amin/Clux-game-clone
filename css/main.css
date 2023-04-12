@@ -174,12 +174,14 @@ header .main-btn button:hover {
 }
 .section-1 .part-1 h6 {
   color: #ffc107;
+  font-size: 1.1rem;
 }
 .section-1 .part-1 p {
   font-size: 1.154rem;
   font-weight: 600;
   line-height: 1.5;
   color: #ffffff;
+  font-size: 1rem;
 }
 .section-1 .part-1 .card::before {
   content: "";
