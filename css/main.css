@@ -32,6 +32,13 @@ button {
   font-weight: 900;
 }
 
+.title-2 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  width: 100%;
+}
+
 .para {
   font-size: 1.154rem;
   font-weight: 600;
@@ -332,9 +339,65 @@ header .main-btn button:hover {
   background-position: center;
   background-size: cover;
   z-index: 1;
-  padding: 2rem 0;
+  padding: 5rem 2rem;
 }
 .special-section .img-container {
   flex: 0 0 50%;
   max-width: 50%;
+}
+.special-section .main-btn {
+  display: flex;
+  flex-direction: row;
+}
+.special-section .main-btn button {
+  color: #ffc107;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem 1.3rem;
+  border-bottom: 4px #ffc107 solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 0px 1rem;
+}
+.special-section .main-btn button::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0.1rem;
+  left: 0;
+  background-color: #ffc107;
+  z-index: -1;
+  transition: all 0.5s ease;
+}
+.special-section .main-btn button:hover::after {
+  height: 100%;
+}
+.special-section .main-btn button:hover {
+  color: #ffffff;
+}
+.special-section p {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-top: 1rem;
+  width: 90%;
+}
+.special-section h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  color: #ffffff;
+}
+.special-section h1 span {
+  color: #ffc107;
+  transition: all 0.5s ease;
+}
+
+.featured-games {
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+}
+.featured-games span {
+  color: #ffc107;
 }/*# sourceMappingURL=main.css.map */

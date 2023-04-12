@@ -21,6 +21,12 @@ button {
     font-size: 1.6rem;
     font-weight: 900;
   }
+  .title-2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+    width: 100%;
+  }
   .para{
     font-size: 1.154rem;
 font-weight: 600;
@@ -336,25 +342,87 @@ margin-bottom: 2rem;
   }
 // special-section
 .special-section{
+
+
     background-image: url(../images/special-bg.jpg);
     background-position: center;
     background-size: cover;
     z-index: 1;
-    padding: 2rem 0;
+    padding: 5rem 2rem;
 .img-container{
     flex: 0 0 50%;
     max-width: 50%;  
 }
-    
-}
+
 // .img-container::after {
 //     content: "";
-//     position: absolute;
+//     position: relative;
 //     width: 100%;
 //     height: 100%;
 //     top: 0;
 //     left: 0;
 //     background-color: black;
-//     z-index: 2;
+//     z-index: 1;
 //     opacity: 0.5;
 //   }
+.main-btn{
+    @include display-flex;
+    button{
+        @include button-1($yellow-color,rgba(0, 0, 0, 0));
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem 1.3rem;
+    border-bottom: 4px $yellow-color solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 0px 1rem;
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 0;
+        bottom: 0.1rem;
+        left: 0;
+        background-color: $yellow-color;
+        z-index: -1;
+        transition: all 0.5s ease;
+      }
+      
+      &:hover::after {
+        height: 100%;
+      }
+      
+      &:hover {
+        color: $white-color;
+      }
+    }
+    
+}
+p{
+    color: $white-color;
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 90%;
+}
+h1{
+    font-size: 4rem;
+    line-height: 4rem;
+    color: $white-color;
+    span{
+        color: $yellow-color;
+        transition: all 0.5s ease;
+    }
+}
+
+}
+
+.featured-games{
+
+    background-color: $white-color;
+    padding: 4rem  2rem;
+    span{
+        color: $yellow-color;
+    }
+}
