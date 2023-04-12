@@ -51,6 +51,24 @@ button {
   justify-content: space-between;
 }
 
+.part-3, .part-4 {
+  padding-top: 2rem;
+}
+.part-3 .card, .part-4 .card {
+  border: none;
+}
+.part-3 .card img, .part-4 .card img {
+  padding: 0.5rem;
+  border: none;
+}
+.part-3 .card:hover, .part-4 .card:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+.part-3 .card:hover h1, .part-4 .card:hover h1 {
+  color: #ffc107;
+}
+
 header {
   background: url(../images/slide-2.jpg) no-repeat;
   background-position: center;
@@ -182,12 +200,11 @@ header .main-btn button:hover {
 }
 .section-1 .part-1 .card-2 {
   background-image: url(../images/box-2-bg.jpg);
-  position: relative;
   z-index: 1;
-  margin: 2rem;
-  padding: 3rem;
+  padding: 1rem 1rem;
   background-position: center;
   background-size: cover;
+  border: none;
 }
 .section-1 .part-1 .card-3 {
   background-image: url(../images/box-3-bg.jpg);
@@ -232,23 +249,6 @@ header .main-btn button:hover {
 .section-1 .part-2 button:hover {
   color: #ffffff;
   background-color: #ffc107;
-}
-.section-1 .part-3, .section-1 .part-4 {
-  padding-top: 2rem;
-}
-.section-1 .part-3 .card, .section-1 .part-4 .card {
-  border: none;
-}
-.section-1 .part-3 .card img, .section-1 .part-4 .card img {
-  padding: 0.5rem;
-  border: none;
-}
-.section-1 .part-3 .card:hover, .section-1 .part-4 .card:hover {
-  transform: scale(1.1);
-  opacity: 0.8;
-}
-.section-1 .part-3 .card:hover h1, .section-1 .part-4 .card:hover h1 {
-  color: #ffc107;
 }
 
 /* search-bar */
@@ -399,5 +399,12 @@ header .main-btn button:hover {
   padding: 4rem 2rem;
 }
 .featured-games span {
+  color: #ffc107;
+}
+
+.blog-news {
+  padding: 4rem 2rem;
+}
+.blog-news span {
   color: #ffc107;
 }/*# sourceMappingURL=main.css.map */
