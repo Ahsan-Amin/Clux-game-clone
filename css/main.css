@@ -393,8 +393,23 @@ header .main-btn button:hover {
 }
 
 .blog-news {
-  padding: 4rem 2rem;
+  padding: 4rem 1rem;
 }
 .blog-news span {
+  color: #ffc107;
+}
+.blog-news .card {
+  margin: 3rem;
+  border: none;
+}
+.blog-news .card img {
+  padding: 0.5rem;
+  border: none;
+}
+.blog-news .card:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+.blog-news .card:hover h1 {
   color: #ffc107;
 }/*# sourceMappingURL=main.css.map */
