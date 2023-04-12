@@ -168,21 +168,29 @@ header{
 
     .part-1{
         padding-top:2.5rem;
-        h1{
-            color: $white-color;
-            font-size: 2rem;
-            font-weight: 900;    
+        .card{
+
+            margin: 2rem;
+            padding: 4rem 3rem;
+            border: none;
+
+            h1{
+                color: $white-color;
+                font-size: 1.7rem;
+                font-weight: 900;    
+            }
+            h6{
+                color: $yellow-color;
+                font-size: 1rem;
+            }
+                    
+                    p{
+                        @include para;
+                        color: $white-color;
+                        font-size: .9rem;
+                    }
         }
-        h6{
-            color: $yellow-color;
-            font-size: 1.1rem;
-        }
-                
-                p{
-                    @include para;
-                    color: $white-color;
-                    font-size: 1rem;
-                }
+
     
                 .card::before {
                     content: "";
@@ -197,9 +205,6 @@ header{
 
         .card-1{
             background-image: url(../images/box-1-bg.jpg);
-            margin:2rem;
-            padding: 3rem;
-            position: relative;
             z-index: 1;
             background-position: center;
             background-size: cover;
@@ -207,21 +212,15 @@ header{
         }
         .card-2{
             background-image: url(../images/box-2-bg.jpg);
-            // position: relative;
             z-index: 1;
-             margin: 2rem;
-            padding: 1rem 1rem;
             background-position: center;
             background-size: cover;
-            border: none;
+ 
           
         }
         .card-3{
         background-image: url(../images/box-3-bg.jpg);
-        position: relative;
         z-index: 1;
-        margin: 2rem;
-        padding: 3rem;
         background-position: center;
         background-size: cover;
         }
@@ -230,12 +229,12 @@ header{
             @include button-1($yellow-color,rgba(0, 0, 0, 0));
         font-size: 1rem;
         font-weight: 600;
-        padding: 1rem 1rem;
+        padding: 1rem;
         border-bottom: 4px $yellow-color solid;
         border-top: none;
         border-left: none;
         border-right: none;
-        // margin: 0px 1rem;
+        margin: 0px 2rem;
 
         &:hover{
             border-bottom: 4px $white-color solid;
