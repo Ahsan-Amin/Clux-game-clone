@@ -3,7 +3,7 @@ A tinder website made exclusively for games.
 <br>
 
 # ScreenShoot
-<img src="./images/img_1.png">
+<img src="./images/screen_shot.png">
 
 
 
